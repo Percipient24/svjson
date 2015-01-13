@@ -40,7 +40,7 @@ into
 
 1. [**Install Package Control**](https://sublime.wbond.net/installation): a means for easily adding plugins to SublimeText.
 2. **Add Repository**: In Sublime, press Cmd+Shift+P and start typing in the entry field so that *Package Control: Add Repository* comes up. Hit enter, and then paste `https://github.com/Percipient24/svjson` in the field that opens at the bottom of the window.
-3. **Install degoogler**: In Sublime, press Cmd+Shift+P again, and start typing so that *Package Control: Install Package* comes up. Hit enter, and then start typing `svjson`. When it appears on the list, select it, and look to the bottom of the window for a status message that lets you know it worked!
+3. **Install svjson**: In Sublime, press Cmd+Shift+P again, and start typing so that *Package Control: Install Package* comes up. Hit enter, and then start typing `svjson`. When it appears on the list, select it, and look to the bottom of the window for a status message that lets you know it worked!
 
 ## Usage
 
