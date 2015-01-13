@@ -12,6 +12,12 @@ class SvjsonCommand(sublime_plugin.TextCommand):
 				self.view.replace(dq_edit, pos, region)
 			self.view.end_edit(dq_edit)
 
+		# replace the DOCTYPE
+		replace(r"<!DOC.*>", "[")
+
+		# replace the <svg>
+		replace(r"<svg.*\n.*>\n", "")
+
 		# replace for id
 		replace("<rect id=", "\t{\n\t\"id\" : ")
 
@@ -33,3 +39,5 @@ class SvjsonCommand(sublime_plugin.TextCommand):
 		# replace the fills and crud
 		replace(r" fill.*,", ",")
 
+		# replace the </svg>
+		replace(r",\n</svg>", "\n]")
