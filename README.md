@@ -48,8 +48,11 @@ Once installed, have the file you would like to convert open and focused, then s
 
 ### Changelog
 
+**v0.0.3** Even less crud.
+- removes `<?xml?>` and `<!-- -->` as well
+
 **v0.0.2** Less crud.
-- removes DOCTYPE and <svg> as well
+- removes `DOCTYPE` and `<svg>` as well
 
 **v0.0.1** A first attempt.
 - initial commit of the package files to get things up and running

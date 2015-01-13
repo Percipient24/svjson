@@ -13,6 +13,12 @@ class SvjsonCommand(sublime_plugin.TextCommand):
 			self.view.end_edit(dq_edit)
 
 		# replace the DOCTYPE
+		replace(r"<\?.*\?>\n", "")
+
+		# replace the DOCTYPE
+		replace(r"<!--.*-->\n", "")
+
+		# replace the DOCTYPE
 		replace(r"<!DOC.*>", "[")
 
 		# replace the <svg>
